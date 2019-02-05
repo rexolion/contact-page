@@ -1,0 +1,49 @@
+.Contact {
+    display: flex;
+    height: 100vh;
+}
+.Contact-image {
+    width: 40%;
+    height: 100%;
+}
+.Contact-image img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Contact-text {
+    height: 100%;
+    width: 60%;
+}
+.Contact-text-col {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 50px;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    flex-direction: column;
+}
+.Contact-contact {
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+}
+.Contact-text-name {
+    line-height: 50px;
+    padding : 20px 20px 20px 20px;
+}
+.Contact-heading {
+    font-size: 50px;
+    width: 300px;
+}
+.Contact-para {
+    width: 300px;
+    margin-bottom: 0;
+}
+.Contact-mail {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
